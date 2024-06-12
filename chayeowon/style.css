@@ -1,0 +1,145 @@
+
+body, html {
+  top: 45px; left: 120px;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock {
+  width: 210px; 
+  height: 210px; 
+  border: 2px solid #9AC8FF; 
+  border-radius: 50%; 
+  position: relative; 
+  display: flex; 
+  flex-direction: row; 
+
+}
+
+.hour-mark {
+  position: absolute; 
+  width: 30px; /
+  height: 30px; 
+  background-color: #9AC8FF; 
+  border-radius: 50%; 
+  color: #4097FF; 
+  text-align: center; 
+  line-height: 30px; 
+  font-size: 22px; /
+  transform-origin: 50% 50%; 
+}
+
+.hour-1 { transform: rotate(30deg) translateY(-80px) translateX(-6px); 
+  top: 90px; left: 100px;
+} /* 1시 위치 */
+.hour-2 { transform: rotate(60deg) translateY(-80px) translateX(-6px); 
+  top: 95px; left: 100px;
+} /* 2시 위치 */
+.hour-3 { transform: rotate(90deg) translateY(-80px) translateX(-6px); 
+   top: 100px; left: 95px;
+} /* 3시 위치 */
+.hour-4 { transform: rotate(120deg) translateY(-80px) translateX(-6px); 
+  top: 100px; left: 90px;
+} /* 4시 위치 */
+.hour-5 { transform: rotate(150deg) translateY(-80px) translateX(-6px); 
+  top: 100px; left: 85px;
+} /* 5시 위치 */
+.hour-6 { transform: rotate(180deg) translateY(-80px) translateX(-6px); 
+  top: 95px; left: 80px;
+} /* 6시 위치 */
+.hour-7 { transform: rotate(210deg) translateY(-80px) translateX(-6px); 
+  top: 90px; left: 80px;
+} /* 7시 위치 */
+.hour-8 { transform: rotate(240deg) translateY(-80px) translateX(-6px); 
+  top: 90px; left: 85px;
+} /* 8시 위치 */
+.hour-9 { transform: rotate(270deg) translateY(-80px) translateX(-6px); 
+  top: 90px; left: 85px;
+} /* 9시 위치 */
+.hour-10 { transform: rotate(300deg) translateY(-80px) translateX(-6px); 
+  top: 90px; left: 85px
+} /* 10시 위치 */
+.hour-11 { transform: rotate(330deg) translateY(-80px) translateX(-6px); 
+  top: 90px; left: 85px;
+} /* 11시 위치 */
+.hour-12 { transform: rotate(360deg) translateY(-80px) translateX(-6px); 
+  top: 85px; left: 95px;  
+} /* 12시 위치 */
+
+.c1{
+   list-style-type: none;
+}
+
+.c2{
+   list-style-type: none;
+}
+
+.c3{
+   list-style-type: none;
+}
+
+.c4{
+   list-style-type: none;
+}
+
+ul{
+  margin: 10px;
+}
+
+body{
+  background-image: url("w1.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100vw auto;
+}
+@media screen and (max-aspect-ratio: 3/2){
+  body{
+    background-size: auto 100vh;
+  }
+}
+
+.b1{
+    width: 700px;
+    height: 100px;
+    background-color: #f2f2f2;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    top: 300px;
+    right: 470px;
+    color: #9AC8FF;
+}
+
+.b2{
+    width: 500px;
+    height: 100px;
+    background-color: #f2f2f2;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    right: 550px;
+    color: #9AC8FF;
+    font-size: 100px; 
+}
+
+.b3{
+    width: 150px;
+    height: 100px;
+    background-color: #f2f2f2;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    top: 420px;
+    right: 650px;
+    color: #9AC8FF;
+    background-size: cover; 
+    background-position: center;
+    font-size: 30px; 
+}
+
+
